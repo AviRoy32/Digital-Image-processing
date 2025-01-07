@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread("image.jpg", cv.IMREAD_GRAYSCALE)
+img = cv.imread("pust.jpg", cv.IMREAD_GRAYSCALE)
 
 row, col = img.shape
 
